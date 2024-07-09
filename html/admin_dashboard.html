@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <h2>Admin Dashboard</h2>
+    <form id="add-doctor-form">
+        <h3>Add Doctor</h3>
+        <input type="text" id="doctor-username" placeholder="Username" required>
+        <input type="password" id="doctor-password" placeholder="Password" required>
+        <button type="submit">Add Doctor</button>
+    </form>
+    <h3>Doctors List</h3>
+    <table id="doctor-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Username</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Doctor list will be populated here -->
+        </tbody>
+    </table>
+    <script src="../js/admin.js"></script>
+</body>
+</html>
